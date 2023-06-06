@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" class="astro-ZII7MMM3"><head><script type="module">
+        import Swup from 'swup';
+        import SwupScrollPlugin from '@swup/scroll-plugin';
+        import SwupBodyClassPlugin from '@swup/body-class-plugin';
+        import SwupHeadPlugin from '@swup/head-plugin';
+        import SwupFormsPlugin from '@swup/forms-plugin';
+        import SwupSlideTheme from '@swup/slide-theme';
+        import SwupPreloadPlugin from '@swup/preload-plugin';
+        import SwupProgressPlugin from '@swup/progress-plugin';
+
+
+
+        const swupInstance = new swup(
+            {
+                plugins: [
+                    new SwupScrollPlugin({animateScroll: {
+                        betweenPages: true,
+                        samePageWithHash: true,
+                        samePage: true
+                    }}),
+                    new SwupBodyClassPlugin(),
+                    new SwupHeadPlugin(),
+                    new SwupFormsPlugin({
+                    formSelector: 'form[data-swup-form]'
+                    }),
+                    new SwupSlideThemePlugin(),
+                    new SwupPreloadPlugin(),
+                    new SwupProgressPlugin({
+                    className: 'swup-progress-bar',
+                    transition: 300,
+                    delay: 300,
+                    initialValue: 0.25,
+                    hideImmediately: true
+                    })
+                ],
+            }
+        );
+
+        swupInstance.on('contentReplaced', function () {
+            // re-init Alpine
+            Alpine.initTree(document.body);
+        });
+
+    </script><script type="module" src="/utils/alpine.js"></script><script type="module" src="/utils/alpine-morph.js"></script><script type="module" src="/utils/alpine-ajax.js"></script><link rel="stylesheet" href="/_astro/optimized2.css" />
+<link rel="stylesheet" href="/_astro/optimized.css" /><script>!(function(w,p,f,c){c=w[p]=Object.assign(w[p]||{},{"lib":"/~partytown/","debug":false});c[f]=(c[f]||[]).concat(["dataLayer.push"])})(window,'partytown','forward');/* Partytown 0.7.6 - MIT builder.io */
+!function(t,e,n,i,r,o,a,d,s,c,p,l){function u(){l||(l=1,"/"==(a=(o.lib||"/~partytown/")+(o.debug?"debug/":""))[0]&&(s=e.querySelectorAll('script[type="text/partytown"]'),i!=t?i.dispatchEvent(new CustomEvent("pt1",{detail:t})):(d=setTimeout(f,1e4),e.addEventListener("pt0",w),r?h(1):n.serviceWorker?n.serviceWorker.register(a+(o.swPath||"partytown-sw.js"),{scope:a}).then((function(t){t.active?h():t.installing&&t.installing.addEventListener("statechange",(function(t){"activated"==t.target.state&&h()}))}),console.error):f())))}function h(t){c=e.createElement(t?"script":"iframe"),t||(c.setAttribute("style","display:block;width:0;height:0;border:0;visibility:hidden"),c.setAttribute("aria-hidden",!0)),c.src=a+"partytown-"+(t?"atomics.js?v=0.7.6":"sandbox-sw.html?"+Date.now()),e.body.appendChild(c)}function f(n,r){for(w(),i==t&&(o.forward||[]).map((function(e){delete t[e.split(".")[0]]})),n=0;n<s.length;n++)(r=e.createElement("script")).innerHTML=s[n].innerHTML,e.head.appendChild(r);c&&c.parentNode.removeChild(c)}function w(){clearTimeout(d)}o=t.partytown||{},i==t&&(o.forward||[]).map((function(e){p=t,e.split(".").map((function(e,n,i){p=p[i[n]]=n+1<i.length?"push"==i[n+1]?[]:p[i[n]]||{}:function(){(t._ptf=t._ptf||[]).push(i,arguments)}}))})),"complete"==e.readyState?u():(t.addEventListener("DOMContentLoaded",u),t.addEventListener("load",u))}(window,document,navigator,top,window.crossOriginIsolated);</script></head><body id="swup" class="astro-ZII7MMM3"><section id="corrected-migration" class="w-full flex flex-row justify-center items-center"><div class="flex-1 flex-row justify-center items-center dp-fluid-container"><div id="awards-wrapper" class="flex flex-1 w-full justify-center items-center"><img loading="lazy" src="https://edgio.nyc3.digitaloceanspaces.com/wp-content/uploads/2023/05/31111529/download-2.webp" alt="2023 RSA award" style="object-fit: contain;" class=""></div></div><div id="awards-wrapper" class="flex flex-1 w-full justify-center items-center"><img loading="lazy" src="https://edgio.nyc3.digitaloceanspaces.com/wp-content/uploads/2023/05/31111528/download-3.webp" alt="2023 NAB award" style="object-fit: contain;"></div></section><script defer>
+        window.onload = function() {
+    var body = document.body;
+
+    // Keep existing x-ref if present, else set to 'primary'
+    if (!body.hasAttribute('x-ref')) {
+        body.setAttribute('x-ref', 'primary');
+    }
+
+    // Keep existing x-data if present, else set to your data
+    if (!body.hasAttribute('x-data')) {
+        body.setAttribute('x-data', "{store: false, search: false}");
+    }
+
+    // Update :class attribute. If light is not true, add 'invert' class.
+    
+};
+
+    </script></body></html>

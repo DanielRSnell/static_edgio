@@ -1,0 +1,24 @@
+<svg width="62" height="67" viewBox="0 0 62 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle opacity="0.5" cx="50.9434" cy="55.0457" r="10" stroke="#D500E6" stroke-width="2"/>
+<circle cx="50.9434" cy="55.0457" r="8" stroke="black" stroke-width="2"/>
+<path d="M55.1934 54.6126C55.5267 54.8051 55.5267 55.2862 55.1934 55.4787L49.1934 58.9428C48.86 59.1352 48.4434 58.8947 48.4434 58.5098L48.4434 51.5816C48.4434 51.1967 48.86 50.9561 49.1934 51.1485L55.1934 54.6126Z" stroke="black" stroke-width="1.5"/>
+<circle opacity="0.5" r="4" transform="matrix(1 0 0 -1 12.9434 45.0437)" stroke="#D500E6" stroke-width="2"/>
+<path d="M42.9434 55.0398L14.9434 55.0398C13.8388 55.0398 12.9434 54.1444 12.9434 53.0398L12.9434 46.0398" stroke="black" stroke-width="2" stroke-dasharray="4 4"/>
+<circle r="2" transform="matrix(1 0 0 -1 12.9434 45.0437)" stroke="black" stroke-width="2"/>
+<circle opacity="0.5" cx="56.9434" cy="25.0398" r="4" transform="rotate(180 56.9434 25.0398)" stroke="#D500E6" stroke-width="2"/>
+<path d="M31.9434 15.0398L54.9434 15.0398C56.0479 15.0398 56.9434 15.9352 56.9434 17.0398L56.9434 23.0398" stroke="black" stroke-width="2"/>
+<rect x="1.94336" y="1.03979" width="31" height="10" rx="3" stroke="black" stroke-width="2"/>
+<circle cx="5.94336" cy="6.03979" r="1" fill="#D500E6"/>
+<circle cx="9.94336" cy="6.03979" r="1" fill="#D500E6"/>
+<path d="M16.0684 6.03979H29.8184" stroke="#D500E6" stroke-width="2" stroke-linecap="round"/>
+<rect x="1.94336" y="11.0398" width="31" height="10" rx="3" stroke="black" stroke-width="2"/>
+<circle cx="5.94336" cy="16.0398" r="1" fill="#D500E6"/>
+<circle cx="9.94336" cy="16.0398" r="1" fill="#D500E6"/>
+<path d="M16.0684 16.0398H29.8184" stroke="#D500E6" stroke-width="2" stroke-linecap="round"/>
+<rect x="1.94336" y="21.0398" width="31" height="10" rx="3" stroke="black" stroke-width="2"/>
+<circle cx="5.94336" cy="26.0398" r="1" fill="#D500E6"/>
+<circle cx="9.94336" cy="26.0398" r="1" fill="#D500E6"/>
+<path d="M16.0684 26.0398H29.8184" stroke="#D500E6" stroke-width="2" stroke-linecap="round"/>
+<circle cx="56.9434" cy="25.0398" r="2" transform="rotate(180 56.9434 25.0398)" stroke="black" stroke-width="2"/>
+<path d="M12.9434 43.0437L12.9434 37.0437C12.9434 35.9391 13.8388 35.0437 14.9434 35.0437L54.9434 35.0437C56.0479 35.0437 56.9434 34.1483 56.9434 33.0437L56.9434 27.0398" stroke="black" stroke-width="2"/>
+</svg>
